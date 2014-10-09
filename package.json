@@ -1,0 +1,10 @@
+{
+  "name": "NodeWeb",
+  "version": "0.0.1",
+  "description": "Learning NodeJS",
+  "author": "Vegard Helland <igniztion@gmail.com>",
+  "dependencies": {
+    "express": "4.9.0 ",
+    "jade": "1.7.0"
+  }
+}
