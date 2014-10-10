@@ -1,5 +1,11 @@
-html
-  head
-    title!= title
-  body
-    h1!= message
+extends layout/site_layout
+block content
+  .col-md-9
+    p
+      | Some text here
+    p
+      | Blablablablabla
+
+block sidebar
+  h1 Widget
+  p Hahahah

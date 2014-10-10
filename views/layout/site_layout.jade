@@ -1,0 +1,18 @@
+include site_header.jade
+
+doctype html
+html
+  head
+    title #{title} - NodeWeb
+    +scripts
+    +style
+  body
+    header
+      h1 NodeWeb
+    .container
+      .row
+        block content
+        .col-md-3
+          block sidebar
+    footer
+      p Running on node with Express and Jade
